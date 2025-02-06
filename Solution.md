@@ -22,7 +22,6 @@ This project consists of a backend built with Express.js and a frontend develope
 
 ### Performance Considerations:
 - Currently, the backend fetches data on every request instead of caching results. Caching would improve response times and reduce API calls.
-- The diff parsing logic, though effective, may not handle extremely large patches optimally.
 
 ### UI Enhancements:
 - The current frontend displays commit diffs, but a more advanced visualization (e.g., syntax highlighting or inline changes) could improve usability.
