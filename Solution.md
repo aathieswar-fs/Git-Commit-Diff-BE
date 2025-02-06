@@ -42,6 +42,6 @@ This project consists of a backend built with Express.js and a frontend develope
    - Optimize layout for better readability on different screen sizes.
 
 ## Repository Links
-- **Frontend Repository:** https://github.com/AathiEswar/Git-Commit-Diff-FE
+- **Frontend Repository:** https://github.com/aathieswar-fs/Git-Commit-Diff-FE
 - **Backend Repository:** https://github.com/aathieswar-fs/Git-Commit-Diff-BE
 
