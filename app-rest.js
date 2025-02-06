@@ -45,14 +45,6 @@ app.get('/repositories/:owner/:repository/commits/:oid/diff', async (req, res) =
   try {
     // Get Parent Commit SHA
     const commitResponse = await axios.get(COMMIT_API_URL);
-    // const parentOid = commitResponse.data.parents[0]?.sha;
-    // if (!parentOid) {
-    //   return res.status(400).json({ error: 'No parent commit found' });
-    // }
-
-    // // Get Diff Between Parent and Current Commit
-    // const DIFF_API_URL = `https://api.github.com/repos/${owner}/${repository}/compare/${parentOid}...${oid}`;
-    // const diffResponse = await axios.get(DIFF_API_URL);
     const filesChanged = commitResponse.data.files;
 
     res.json(filesChanged.map(file => ({
