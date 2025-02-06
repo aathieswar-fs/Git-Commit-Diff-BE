@@ -43,5 +43,5 @@ This project consists of a backend built with Express.js and a frontend develope
 
 ## Repository Links
 - **Frontend Repository:** https://github.com/AathiEswar/Git-Commit-Diff-FE
-- **Backend Repository:** https://github.com/AathiEswar/Git-Commit-Diff-BE
+- **Backend Repository:** https://github.com/aathieswar-fs/Git-Commit-Diff-BE
 

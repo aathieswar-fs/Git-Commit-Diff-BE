@@ -16,7 +16,7 @@ This is an Express.js-based backend that provides REST API endpoints for fetchin
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/gitdiff-backend.git
+   git clone https://github.com/aathieswar-fs/Git-Commit-Diff-BE
    cd Git-Commit-Diff-BE
    ```
 
